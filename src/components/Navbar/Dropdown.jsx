@@ -45,7 +45,7 @@ const Dropdown4 = () => {
                 <div className='relative inline-block mb-8 text-left'>
                   <button
                     onClick={() => setDropdownOpen(!dropdownOpen)}
-                    className={`bg-secondary flex items-center rounded-[5px] px-5 py-[13px] text-base font-medium text-black`}
+                    className={`bg-secondary flex items-center rounded-[5px] px-5 py-[13px] text-base font-medium text-white`}
                   >
                     <svg className="h-8 w-8 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
@@ -55,9 +55,9 @@ const Dropdown4 = () => {
                     </span>
                   </button>
                   <div
-                    className={`shadow-1 dark:shadow-box-dark absolute left-0 z-40 mt-2 w-full rounded-md bg-black bg-opacity-80 dark:bg-dark-2 py-[10px] transition-all ${dropdownOpen
+                    className={`shadow-xl absolute left-0 z-40 mt-2 w-full rounded-md bg-black bg-opacity-80  py-[10px] transition-all ${dropdownOpen
                       ? 'top-full opacity-100 visible'
-                      : 'top-[110%] invisible opacity-0'
+                      : 'top-[60%] invisible opacity-0'
                       }`}
                   >
                     <DropdownItem label='HOME' to='/' />
@@ -85,7 +85,7 @@ const DropdownItem = ({ label, to }) => {
   return (
     <NavLink
       to={to}
-      className={({isActive})=>`${isActive ? " text-green-600":""} text-body-color font-thin hover:text-green-600 block text-center py-2 text-sm`}
+      className={({isActive})=>`${isActive ? " text-green-600":"text-white"} font-poppins hover:text-green-600 block text-center py-2 text-sm`}
     >
       {label}
     </NavLink>

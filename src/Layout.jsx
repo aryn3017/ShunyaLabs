@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom'
 import Navbar from './components/Navbar/Nav'
 import Banner from './components/Banner/Banner'
 import Background from './components/Background/Background'
+import Footer from './components/Footer/Footer'
 
 function Layout() {
   return (
@@ -12,6 +13,7 @@ function Layout() {
         <Navbar visib='hidden'/>
         {/* <Banner/> */}
         <Outlet/>
+        <Footer/>
     </>
 
   )
