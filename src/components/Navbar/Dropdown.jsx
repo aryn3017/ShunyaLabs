@@ -63,9 +63,9 @@ const Dropdown4 = () => {
                     <DropdownItem label='HOME' to='/' />
                     <DropdownItem label='ABOUT' to='/about' />
                     <DropdownItem label='TEAM' to='/team' />
-                    <DropdownItem label='SPEAKERS' to='/speakers' />
+                    {/* <DropdownItem label='SPEAKERS' to='/speakers' /> */}
                     <DropdownItem label='CONTACTS' to='/contact' />
-                    <DropdownItem label='IMP INFO.' to='/Impinfo' />
+                    {/* <DropdownItem label='IMP INFO.' to='/Impinfo' /> */}
                   </div>
                 </div>
               </div>
