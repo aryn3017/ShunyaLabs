@@ -40,14 +40,14 @@ const Dropdown4 = () => {
         <div className='container'>
           <div className='flex flex-wrap -mx-4 md:mx-0'>
 
-            <div ref={domNode} className='w-full px-4 sm:w-1/2 lg:w-1/4'>
+            <div ref={domNode} className='w-full px-4 ssm:px-0 sm:w-1/2 lg:w-1/4'>
               <div className=' text-center'>
                 <div className='relative inline-block mb-8 text-left'>
                   <button
                     onClick={() => setDropdownOpen(!dropdownOpen)}
                     className={`bg-secondary flex items-center rounded-[5px] px-5 py-[13px] text-base font-medium text-white`}
                   >
-                    <svg className="h-8 w-8 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg className="h-8 w-8 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
                     </svg>
 

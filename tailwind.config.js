@@ -44,6 +44,7 @@ export default {
         'ban-img': "url('/banner_bg.png')"
       },
       fontFamily: {
+        playwrite: ['Playwrite ES Deco','sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
       },
     },
