@@ -7,8 +7,18 @@ export default {
   theme: {
     animation: {
       'gradient': 'gradient 5s ease infinite',
+      floatIn: 'floatIn 2s ',
+      floatOut: 'floatOut 2s',
     },
     keyframes: {
+      floatOut: {
+        '0%': { transform: 'translateY(0)', opacity: 1 },
+        '100%': { transform: 'translateY(100%)', opacity: 0 },
+      },
+      floatIn: {
+        '0%': { transform: 'translateY(100%)', opacity: 0 },
+        '100%': { transform: 'translateY(0)', opacity: 1 },
+      },
       gradient: {
         '0%': {
             'background-position': '0% 50%',
@@ -31,6 +41,7 @@ export default {
       backgroundImage: {
         'nav-img': "url('/navimg.png')",
         'back-img': "url('/background.jpg')",
+        'ban-img': "url('/banner_bg.png')"
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],

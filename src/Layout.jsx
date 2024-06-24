@@ -11,7 +11,7 @@ function Layout() {
     <>
         <Background/>
         <Navbar visib='hidden'/>
-        {/* <Banner/> */}
+        <Banner/>
         <Outlet/>
         <Footer/>
     </>
