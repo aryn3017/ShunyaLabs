@@ -3,7 +3,7 @@ import React from "react";
 function ResearchT() {
   return (
     <div className="flex flex-row bg-gray-100 pt-10 px-4 mmd:flex-col font-poppins pb-20">
-      <div className="  bg-gradient-to-b from-green-500 to-90% to-gray-100 p-4 rounded-2xl mx-5 ssm:mx-0 my-5">
+      <a href="https://www.sciencedirect.com/science/article/pii/S0301421524001599?dgcid=author"><div className=" hover:from-green-600 bg-gradient-to-b from-green-500 to-90% to-gray-100 p-4 rounded-2xl mx-5 ssm:mx-0 my-5">
         <h1 className=" shadow-2xl text-xl font-medium bg-green-300 rounded-lg text-center mb-3 p-1">
           Energy Efficiency
         </h1>
@@ -28,9 +28,9 @@ function ResearchT() {
           Framework for energy efficient economic development(FEED) is to
           promote energy efficiency by developing fiscal instruments.
         </p>
-      </div>
+      </div></a>
 
-      <div className=" bg-gradient-to-b from-green-500 to-90% to-gray-100 p-4 rounded-2xl mx-5 ssm:mx-0 my-5">
+      <a href="https://ideea-model.github.io/IDEEA/index.html"><div className="hover:from-green-600 bg-gradient-to-b from-green-500 to-90% to-gray-100 p-4 rounded-2xl mx-5 ssm:mx-0 my-5">
         <h1 className=" shadow-2xl text-xl font-medium bg-green-300 rounded-lg text-center mb-3 p-1">
           Modelling for Net Zero Energy Systems
         </h1>
@@ -63,7 +63,7 @@ function ResearchT() {
           energy sources (VERs), utilizing detailed temporal and spatial data.
         </p>
         <p className="bg-gray-100 ssm:text-sm shadow-xl rounded-md mt-2 px-2"></p>
-      </div>
+      </div></a>
     </div>
   );
 }
