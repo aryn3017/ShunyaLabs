@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
       <Hero />
-      <div className=" w-full h-16 bg-gradient-to-t from-gray-100 mt-5 to-transparent z-51 text-black text-center font-poppins font-bold">
+      <div className=" w-full h-16 bg-gradient-to-t from-gray-100 mt-5 to-transparent z-51 text-black text-center font-playwrite text-4xl font-bold">
         ^
       </div>
       <section className="text-white body-font bg-gray-100 pt-10 pb-20">
@@ -24,7 +24,7 @@ function Home() {
             <Carousel />
           </div>
           <div className=" ssm:mx-5 lg:flex-grow md:w-1/2   flex flex-col md:text-left items-center text-center border-4 bg-clip-border bg-green-200 rounded-b-xl  ml-5 mmd:ml-0 mmd:mt-5 rounded-t-xl ">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 text-black bg-green-400 w-full font-semibold text-center rounded-t-xl">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 text-black bg-green-400 w-full font-poppins font-semibold text-center rounded-t-xl">
               IMPORTANT
             </h1>
             <ul className=" text-black text-left min-h-40">
