@@ -6,7 +6,7 @@ function Banner() {
     setNo('animate-floatOut')
     setTimeout(() => {
       setNo('hidden')
-    }, 2000);
+    }, 1000);
   }
   return (
     <div className={`${No} fixed ssm:right-1 bottom-5 right-5 rounded-2xl bg-ban-img bg-no-repeat bg-cover border-2 border-black z-50 shadow-2xl ssm:text-sm`}>

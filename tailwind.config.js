@@ -8,7 +8,7 @@ export default {
     animation: {
       'gradient': 'gradient 5s ease infinite',
       floatIn: 'floatIn 2s ',
-      floatOut: 'floatOut 2s',
+      floatOut: 'floatOut 1s',
     },
     keyframes: {
       floatOut: {
