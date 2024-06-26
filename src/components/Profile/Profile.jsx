@@ -12,7 +12,7 @@ function Profile() {
             <h1 className=" font-medium font-poppins text-3xl">
               Prof. Tarun Sharma
             </h1>
-            <h1 className=" font-poppins text-lg">Founder, Shunya-Labs</h1>
+            <h1 className=" font-poppins text-lg">Founder, Shunya-Lab</h1>
             <h1 className="  font-poppins text-lg">
               Department of Management Studies, IIT Roorkee
             </h1>
