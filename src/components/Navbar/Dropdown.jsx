@@ -36,7 +36,7 @@ const Dropdown4 = () => {
   return (
     <>
       {/* <!-- ====== Dropdowns Section Start --> */}
-      <section className="dark:bg-dark md:hidden mr-3">
+      <section className="dark:bg-dark md:hidden mr-5">
         <div className='container'>
           <div className='flex flex-wrap -mx-4 md:mx-0'>
 
