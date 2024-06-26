@@ -6,7 +6,7 @@ function Hero() {
     <>
     <div className=" flex flex-row mx-20 ssm:mx-5 justify-between mt-10 -z-10">
       <div className="flex flex-col ml-0 text-center">
-      <div className=" ssm:flex-col flex flex-row mb-5 bg-white bg-opacity-20 rounded-3xl p-4 backdrop-blur-2xl "><p className=" mr-5 ssm:mb-3 text-center font-semibold font-playwrite text-xl bg-gradient-to-tl from-green-500 via-blue-600 to-green-500 bg-clip-text text-transparent">Our Vision</p>
+      <div className=" ssm:flex-col flex flex-row mb-5 -z-10 bg-white bg-opacity-20 rounded-3xl p-4 backdrop-blur-2xl "><p className=" mr-5 ssm:mb-3 text-center font-semibold font-playwrite text-xl bg-gradient-to-tl from-green-500 via-blue-600 to-green-500 bg-clip-text text-transparent">Our Vision</p>
         <p className=" font-light  mb-5 ssm:text-xl text-3xl font-poppins">
           Developing cutting edge workflows for whole Energy
           system optimization.
