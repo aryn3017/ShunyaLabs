@@ -25,10 +25,10 @@ function Contact() {
           <div className="w-1/4 border-2 mmd:w-full flex flex-col leading-relaxed p-5 m-5 shadow-2xl ">
             <div className="w-1/2 font-bold">CALL US</div>
             <div className="w-1/2 ssm:text-ssm">
-              <p>Sandeep Kumar :</p>
-              <p className=" font-thin">7830295858</p>
               <p>Ankit Sharma :</p>
               <p className=" font-thin">7088480176</p>
+              <p>Sandeep Kumar :</p>
+              <p className=" font-thin">7830295858</p>
             </div>
           </div>
         </div>
