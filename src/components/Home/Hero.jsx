@@ -6,7 +6,7 @@ function Hero() {
       <p className=" text-center font-semibold font-playwrite mt-5 text-xl bg-gradient-to-tl from-green-500 via-blue-600 to-green-500 bg-clip-text text-transparent">Our Vision Statement :</p>
     <div className=" flex flex-row mx-20 ssm:mx-5 justify-between mt-10 -z-10">
       <div className="flex flex-col ml-0 text-center">
-        <p className=" gradient-text bg-clip-text text-transparent mb-5 leading-tight ssm:text-3xl umd:text-5xl text-7xl font-poppins font-bold">
+        <p className=" gradient-text bg-clip-text text-transparent mb-5 leading-tight ssm:text-3xl umd:text-5xl text-5xl font-poppins font-bold">
           Developing cutting edge workflows for whole Energy
           system optimization.
         </p>

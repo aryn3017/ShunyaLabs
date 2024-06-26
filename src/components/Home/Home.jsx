@@ -12,7 +12,7 @@ function Home() {
         ^
       </div>
       <section className="text-white body-font bg-gray-100 pt-10 pb-20">
-        <div className=" mb-20 bg-gradient-to-r from-blue-800 ssm:to-60% to-40% to-gray-100 h-10 px-10 text-white flex items-center font-poppins">
+        <div className=" mb-20 bg-gradient-to-r from-blue-800 ssm:to-60% to-40% to-gray-100 h-8 px-10 text-white flex items-center font-poppins">
           {" "}
           NOTIFICATIONS
         </div>
@@ -28,7 +28,7 @@ function Home() {
               IMPORTANT
             </h1>
             <ul className=" text-black text-left min-h-40">
-              <li className=" flex flex-row">
+              <li className=" flex flex-row hover:translate-x-2 duration-200">
                 <a href="https://ideea-registration.vercel.app/">
                   {" "}
                   🌱Workshop on Open source energy system analysis
@@ -38,7 +38,7 @@ function Home() {
                   <span class="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
                 </span>
               </li>
-              <li className=" flex flex-row">
+              <li className=" flex flex-row  hover:translate-x-2 duration-200">
                 <a href="https://www.sciencedirect.com/science/article/pii/S0301421524001599?dgcid=author">
                   🚗Recent publication on energy efficiency
                 </a>
@@ -50,7 +50,7 @@ function Home() {
             </ul>
           </div>
         </div>
-        <div className=" mt-20 bg-gradient-to-l from-blue-800 to-40% to-gray-100 h-10 px-10 text-white flex items-center font-poppins">
+        <div className=" h-8 mt-20 ssm:mt-0 bg-gradient-to-l from-blue-800 to-80% to-gray-100 px-10 text-white flex items-center font-poppins">
           {" "}
         </div>
       </section>
