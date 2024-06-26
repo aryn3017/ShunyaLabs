@@ -23,8 +23,8 @@ function Banner() {
         </div>
       </div>
       <div className=' flex flex-row w-full justify-center '>
-        <a className='px-3 border-r-2 text-center pl-20 pr-8 duration-700 border-black hover:text-green-500 rounded-bl-xl hover:bg-black' href="https://ideea-registration.vercel.app"><div>Register Now</div></a>
-        <a onClick={handleNo} className=' cursor-pointer px-3 flex justify-center pr-20 duration-700 border-black rounded-br-xl hover:text-white hover:bg-black' ><div className=' w-full'>No, Thanks</div></a>
+        <a className=' p-1.5 border-r-2 text-center pl-20 pr-8 duration-700 border-black hover:text-green-500 rounded-bl-xl hover:bg-black' href="https://ideea-registration.vercel.app"><div>Register Now</div></a>
+        <a onClick={handleNo} className=' p-1.5 cursor-pointer px-3 flex justify-center pr-20 duration-700 border-black rounded-br-xl hover:text-white hover:bg-black' ><div className=' w-full'>No, Thanks</div></a>
       </div></div>
     </div>
   )
