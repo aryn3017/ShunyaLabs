@@ -9,7 +9,7 @@ function Home() {
     <>
       <Hero />
       <div className=" w-full h-16 bg-gradient-to-t from-gray-100 mt-5 to-transparent z-51 text-black text-center font-playwrite text-4xl font-bold">
-        ^
+        
       </div>
       <section className="text-white body-font bg-gray-100 pt-10 pb-20">
         <div className=" mb-20 bg-gradient-to-r from-blue-800 ssm:to-60% to-40% to-gray-100 h-8 px-10 text-white flex items-center font-poppins">
