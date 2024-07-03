@@ -7,9 +7,9 @@ function Footer() {
                 <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                         <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
-                            <img src='./IITR_Logo.svg' className="w-20 h-20 text-white  rounded-full" viewBox="0 0 24 24" />
+                            <img src='./IITR_Logo.svg' className="w-20 h-20 text-white mx-auto  rounded-full" viewBox="0 0 24 24" />
                         </a>
-                        <p className="mt-2 text-sm text-white">Indian Institute of Technology Roorkee</p>
+                        <p className="mt-2 text-sm text-white text-center">Indian Institute of Technology Roorkee</p>
                     </div>
                     <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4  p-1 rounded-lg">
