@@ -3,12 +3,12 @@ import React, { useState, useEffect } from 'react';
 function Carousel() {
     const [activeIndex, setActiveIndex] = useState(0);
     const images = [
-        './prof_sharma.jpeg',
-        './prof_roy.jpeg',
-        './prof_patil.jpeg',
-        './partha.jpeg',
-        './Dr_oleg.jpeg',
-        './group.jpeg',
+        // './prof_sharma.jpg',
+        './1.jpg',
+        './2.jpg',
+        './3.jpg',
+        './4.jpg',
+        './5.jpg',
     ];
 
     const goToNextSlide = () => {

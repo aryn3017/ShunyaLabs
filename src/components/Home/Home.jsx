@@ -19,7 +19,7 @@ function Home() {
         <div className="container mx-auto flex  pt-5 pb-20 md:pb-0 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 border-2 border-green-400 bg-green-400 rounded-xl">
             <div className=" text-black text-center bg-green-400 rounded-t-xl font-poppins ">
-              Previous IDEEA Workshop gallary
+              WORKSHOP 2024-2023
             </div>
             <Carousel />
           </div>
